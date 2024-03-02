@@ -36,7 +36,7 @@ body{
     margin-right: .5rem;
 }
 .banner{
-    background-image: url('images/main-banner.png');
+    background-image: url('Images/main-banner.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
