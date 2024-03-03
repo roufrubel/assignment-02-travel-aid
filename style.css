@@ -238,8 +238,6 @@ grid-template-columns: repeat(2, 1fr);
         padding: .5rem;
         border-radius: 10px;
     }
-
-
     .popular-tour{
         flex-direction: column;
         margin-top: 50px;
@@ -265,6 +263,35 @@ grid-template-columns: repeat(2, 1fr);
     .popular-tour .popular-tour-img img{
         width: 100%;
     }    
+
+
+    .destination-container{
+        margin-top: 50px;
+    }
+    .destination-container .destination-title{
+        text-align: center;
+        padding: .8rem;
+        width: auto;
+    }
+    .destination-title h2{
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .destination-title p{
+        margin: .3rem;
+    }
+    .row .country{
+        height: 250px;
+    }
+    .first-row, .second-row, .third-row{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        height: auto;
+        }
+        
+
+    
+
 }
 
 
