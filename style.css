@@ -16,6 +16,7 @@ body{
 .nav h4{
     font-weight: 700;
     font-size: 1.5em;
+    margin-bottom: 1rem;
 }
 .nav ul{
     display: flex;
@@ -69,7 +70,7 @@ body{
     border-radius: 10px;
 }
 .input-section input, select{
-    width:100px;
+    width:150px;
     padding: .5rem .8rem;
     border: 0;
     border-radius: 5px;
@@ -124,8 +125,12 @@ body{
     .nav{
        flex-direction: column;
     }
-    .nav ul{
+   .nav ul{
         flex-direction: column;
+    }
+    .nav h4{
+        margin-bottom: .5rem;
+        margin-right: 4rem;
     }
     .input-section{
         margin-top: 1rem;
@@ -133,8 +138,8 @@ body{
         flex-direction: column;
     }
     .input-section input, select{
-        width:200px;
-       margin: .5rem;
+        width:150px;
+       margin: .4rem;
     }
     .banner-content h1{
         font-weight:700;
