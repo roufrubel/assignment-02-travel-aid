@@ -100,6 +100,7 @@ body{
 }
 .popular-tour .popular-tour-content p, li{
     margin-bottom: 1.5rem;
+    color: rgb(104, 103, 103);
 }
 .popular-tour .popular-tour-content li{
     margin-left: 2rem;
@@ -115,6 +116,62 @@ body{
     border: 0;
     border-radius: 7px;
 }
+
+/* destination area styles */
+.destination-container{
+    margin-top: 120px;
+}
+.destination-title{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.destination-title h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.destination-title p{
+    color: rgb(104, 103, 103);
+    margin: 1.5rem 0;
+}
+
+.row img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    height: 300px;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.row .Maldives{
+    background-image: url('images/one.png');
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 1.7rem;
+}
+
+.row > div{
+    flex: 1;
+}
+
+/*  .vertical-collage img{
+    height: calc((100% - 5px)/2);
+}
+.square-collage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+} */
+
 
 
 /* mobile and medium device styles */
